@@ -22,3 +22,4 @@ where loginn.id_login = audiovisual.id_loginn
 and loginn.id_login = 1
 and audiovisual.nome_tipoproduc = 'Série'
 
+select * from audiovisual where data_assis between '03-03-2014' and '01/03/2024' and id_usuario = 1
